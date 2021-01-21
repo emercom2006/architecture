@@ -15,7 +15,7 @@ import (
 
 func main() {
 	sendmail.SendMail()
-	tg, err := tgbot.NewTelegramAPI("1446832842:AAE55Z-MRFhNmyNdtE1Gnw-vRDppr0k5kFo", 132592606)
+	tg, err := tgbot.NewTelegramAPI("1446832842:A-MRFhNmyGnw-vRDppr0k5kFo", 132506)
 	if err != nil {
 		log.Fatal("Unable to init telegram bot")
 	}
